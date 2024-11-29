@@ -1,0 +1,36 @@
+# 1. General - File Sistem
+.DS_Store                 # File macOS
+Thumbs.db                 # File Windows
+*.swp                     # File sementara editor (Vim/VSCode)
+*.log                     # File log
+
+# 2. Virtual Environments / Dependencies
+venv/                     # Python virtual environment
+node_modules/             # Node.js dependencies
+.env                      # File environment variables (jangan upload API keys, passwords)
+
+# 3. Build Output
+dist/                     # Direktori hasil build (misalnya dari Node.js/React/Vue)
+build/                    # Direktori hasil build (misalnya aplikasi Java atau Python)
+*.class                   # File hasil kompilasi Java
+*.o                       # File object hasil kompilasi C/C++
+
+# 4. Container/Deployment
+*.tar                     # File container hasil `docker save`
+*.img                     # File hasil build image
+*.out                     # Output file hasil kompilasi/test
+
+# 5. Tools Configuration
+.idea/                    # Konfigurasi IntelliJ IDEA
+.vscode/                  # Konfigurasi editor VS Code
+*.iml                     # File konfigurasi IntelliJ IDEA
+
+# 6. Testing Files
+coverage/                 # Direktori laporan tes kode (misalnya Jest, Pytest)
+*.test                    # File sementara hasil tes
+
+docker-compose.override.yml
+.env
+__pycache__/
+*.pyc
+*.pyo
